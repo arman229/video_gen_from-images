@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./front_text2video
+    ports:
+      - "3000:3000"
+    
+
+  backend:
+    build:
+      context: ./back_text2video
+    ports:
+      - "8000:8000"

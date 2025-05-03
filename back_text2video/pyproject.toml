@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = ["arman229 <armanashraf015@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.1"
+language-tool-python = "^2.8"
+sqlmodel = "^0.0.19"
+uvicorn = "^0.30.1"
+transformers = "^4.42.4"
+gingerit = "^0.0.0.1"
+autocorrect = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
